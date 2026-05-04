@@ -6,21 +6,21 @@ import {
 
 // ─── DATA SEED ──────────────────────────────────────────────────────
 const INIT_PETS = [
-  { id:1, name:'Max',    species:'Perro',  breed:'Golden Retriever', age:3, owner:'Carlos Ruiz',   phone:'310-111-2222', status:'healthy',   lastVisit:'2025-04-20', nextVisit:'2025-07-20', weight:'28kg', vaccinated:true,  microchip:'982000123456789' },
-  { id:2, name:'Luna',   species:'Gato',   breed:'Siamés',           age:5, owner:'María López',   phone:'310-333-4444', status:'treatment', lastVisit:'2025-04-28', nextVisit:'2025-05-05', weight:'4kg',  vaccinated:true,  microchip:'982000234567890' },
-  { id:3, name:'Rocky',  species:'Perro',  breed:'Bulldog',          age:2, owner:'Juan García',   phone:'310-555-6666', status:'healthy',   lastVisit:'2025-03-15', nextVisit:'2025-06-15', weight:'22kg', vaccinated:true,  microchip:'982000345678901' },
-  { id:4, name:'Pelusa', species:'Conejo', breed:'Angora',           age:1, owner:'Ana Martínez',  phone:'310-777-8888', status:'checkup',   lastVisit:'2025-04-10', nextVisit:'2025-05-10', weight:'2kg',  vaccinated:false, microchip:'982000456789012' },
-  { id:5, name:'Toby',   species:'Perro',  breed:'Poodle',           age:7, owner:'Pedro Vargas',  phone:'310-999-0000', status:'critical',  lastVisit:'2025-04-30', nextVisit:'2025-05-02', weight:'6kg',  vaccinated:true,  microchip:'982000567890123' },
-  { id:6, name:'Mochi',  species:'Gato',   breed:'Persa',            age:4, owner:'Sofía Castro',  phone:'310-121-3434', status:'healthy',   lastVisit:'2025-04-25', nextVisit:'2025-07-25', weight:'5kg',  vaccinated:true,  microchip:'982000678901234' },
+  { id:1, name:'Max',    species:'Perro',  breed:'Golden Retriever', age:3, owner:'Carlos Ruiz',   phone:'310-111-2222', status:'healthy',   lastVisit:'2026-04-20', nextVisit:'2026-07-20', weight:'28kg', vaccinated:true,  microchip:'982000123456789' },
+  { id:2, name:'Luna',   species:'Gato',   breed:'Siamés',           age:5, owner:'María López',   phone:'310-333-4444', status:'treatment', lastVisit:'2026-04-28', nextVisit:'2026-05-05', weight:'4kg',  vaccinated:true,  microchip:'982000234567890' },
+  { id:3, name:'Rocky',  species:'Perro',  breed:'Bulldog',          age:2, owner:'Juan García',   phone:'310-555-6666', status:'healthy',   lastVisit:'2026-03-15', nextVisit:'2026-06-15', weight:'22kg', vaccinated:true,  microchip:'982000345678901' },
+  { id:4, name:'Pelusa', species:'Conejo', breed:'Angora',           age:1, owner:'Ana Martínez',  phone:'310-777-8888', status:'checkup',   lastVisit:'2026-04-10', nextVisit:'2026-05-10', weight:'2kg',  vaccinated:false, microchip:'982000456789012' },
+  { id:5, name:'Toby',   species:'Perro',  breed:'Poodle',           age:7, owner:'Pedro Vargas',  phone:'310-999-0000', status:'critical',  lastVisit:'2026-04-30', nextVisit:'2026-05-02', weight:'6kg',  vaccinated:true,  microchip:'982000567890123' },
+  { id:6, name:'Mochi',  species:'Gato',   breed:'Persa',            age:4, owner:'Sofía Castro',  phone:'310-121-3434', status:'healthy',   lastVisit:'2026-04-25', nextVisit:'2026-07-25', weight:'5kg',  vaccinated:true,  microchip:'982000678901234' },
 ];
 
 const INIT_APPTS = [
-  { id:1, time:'08:00', pet:'Max',    owner:'Carlos Ruiz',  type:'Vacunación',     vet:'Dr. Ramírez', status:'done',    notes:'Refuerzo anual completado',   date:'2025-05-01' },
-  { id:2, time:'09:30', pet:'Luna',   owner:'María López',  type:'Control',        vet:'Dra. Torres', status:'done',    notes:'Tratamiento avanzando bien',  date:'2025-05-01' },
-  { id:3, time:'11:00', pet:'Rocky',  owner:'Juan García',  type:'Baño y corte',   vet:'Dr. Ramírez', status:'next',    notes:'',                            date:'2025-05-01' },
-  { id:4, time:'12:30', pet:'Pelusa', owner:'Ana Martínez', type:'Consulta',       vet:'Dra. Torres', status:'pending', notes:'Primera consulta',            date:'2025-05-01' },
-  { id:5, time:'14:00', pet:'Toby',   owner:'Pedro Vargas', type:'Urgencia',       vet:'Dr. Ramírez', status:'pending', notes:'Caso critico',                date:'2025-05-01' },
-  { id:6, time:'15:30', pet:'Mochi',  owner:'Sofía Castro', type:'Desparasitación',vet:'Dra. Torres', status:'pending', notes:'',                            date:'2025-05-01' },
+  { id:1, time:'08:00', pet:'Max',    owner:'Carlos Ruiz',  type:'Vacunación',     vet:'Dr. Ramírez', status:'done',    notes:'Refuerzo anual completado',   date:'2026-05-04' },
+  { id:2, time:'09:30', pet:'Luna',   owner:'María López',  type:'Control',        vet:'Dra. Torres', status:'done',    notes:'Tratamiento avanzando bien',  date:'2026-05-04' },
+  { id:3, time:'11:00', pet:'Rocky',  owner:'Juan García',  type:'Baño y corte',   vet:'Dr. Ramírez', status:'next',    notes:'',                            date:'2026-05-04' },
+  { id:4, time:'12:30', pet:'Pelusa', owner:'Ana Martínez', type:'Consulta',       vet:'Dra. Torres', status:'pending', notes:'Primera consulta',            date:'2026-05-04' },
+  { id:5, time:'14:00', pet:'Toby',   owner:'Pedro Vargas', type:'Urgencia',       vet:'Dr. Ramírez', status:'pending', notes:'Caso critico',                date:'2026-05-04' },
+  { id:6, time:'15:30', pet:'Mochi',  owner:'Sofía Castro', type:'Desparasitación',vet:'Dra. Torres', status:'pending', notes:'',                            date:'2026-05-04' },
 ];
 
 const INIT_MEDS = [
@@ -349,7 +349,7 @@ export default function App() {
 
   const saveAppt = () => {
     if (!validate([['Mascota', form.pet], ['Hora', form.time], ['Tipo', form.type]])) return;
-    setAppts(aa => [...aa, { ...form, id: nextId(aa), status:'pending', date:'2025-05-01', notes: form.notes || '' }]);
+    setAppts(aa => [...aa, { ...form, id: nextId(aa), status:'pending', date:'2026-05-04', notes: form.notes || '' }]);
     showToast('Cita agendada — recordatorio WhatsApp enviado');
     closeModal();
   };
@@ -409,7 +409,7 @@ export default function App() {
 
   const lowMeds       = useMemo(() => meds.filter(m => m.stock < m.min), [meds]);
   const criticalPets  = useMemo(() => pets.filter(p => p.status === 'critical'), [pets]);
-  const todayAppts    = useMemo(() => appts.filter(a => a.date === '2025-05-01'), [appts]);
+  const todayAppts    = useMemo(() => appts.filter(a => a.date === '2026-05-04'), [appts]);
   const totalRevenue  = REVENUE_DATA.reduce((s, r) => s + r.ingresos, 0);
 
   const notifs = [
@@ -453,7 +453,7 @@ export default function App() {
         <div style={{position:'absolute', right:-20, top:-20, fontSize:160, opacity:.08}}>🐾</div>
         <div style={{display:'flex', justifyContent:'space-between', alignItems:'flex-start', flexWrap:'wrap', gap:20, position:'relative'}}>
           <div>
-            <div style={{fontSize:13, color:C.text2, fontWeight:600, letterSpacing:'.4px', marginBottom:6}}>Jueves 1 de Mayo · Clínica VetCare</div>
+            <div style={{fontSize:13, color:C.text2, fontWeight:600, letterSpacing:'.4px', marginBottom:6}}>Lunes 4 de Mayo 2026 · Clínica VetCare</div>
             <h1 style={{fontSize:32, fontWeight:800, color:C.text, margin:0, letterSpacing:'-1px', lineHeight:1.15}}>
               Buenos días, <span style={{color:C.accent}}>Dr. Maya</span> 👋
             </h1>
@@ -709,7 +709,7 @@ export default function App() {
       <div style={{display:'flex', justifyContent:'space-between', alignItems:'center', marginBottom:8, flexWrap:'wrap', gap:14}}>
         <div>
           <h1 style={{fontSize:30, fontWeight:800, margin:0, color:C.text, letterSpacing:'-.8px'}}>Agenda del día</h1>
-          <div style={{fontSize:14, color:C.text2, marginTop:6}}>Jueves 1 de Mayo · {todayAppts.length} citas programadas</div>
+          <div style={{fontSize:14, color:C.text2, marginTop:6}}>Lunes 4 de Mayo 2026 · {todayAppts.length} citas programadas</div>
         </div>
         <button style={S.btnPri} onClick={() => { setModal('appt'); setForm({}); }}>
           <Icon.plus /> Nueva cita
