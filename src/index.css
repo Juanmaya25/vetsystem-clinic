@@ -25,3 +25,10 @@ input, select, textarea {
 /* Animacion suave de aparicion */
 @keyframes fadeIn { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
 .fade-in { animation: fadeIn .25s ease-out; }
+
+/* Grids de dos columnas que colapsan en pantallas estrechas */
+.vet-cols-dash { grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); }
+.vet-cols-analytics { grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); }
+@media (max-width: 900px) {
+  .vet-cols-dash, .vet-cols-analytics { grid-template-columns: minmax(0, 1fr); }
+}
